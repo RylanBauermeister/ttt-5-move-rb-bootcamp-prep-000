@@ -11,6 +11,6 @@ def input_to_index(input)
   input.to_i - 1
 end
 
-def move(array, cell, type)
+def move(array, cell, type = 'X')
   array[cell] = type
 end
